@@ -1,0 +1,22 @@
+Bu kodda yapılan temel değişiklikler:
+
+Abstract Class: MatematikIslem abstract sınıfı ve UcgenAlan concrete sınıfı eklendi
+Polimorfizm: IMetinIslem interface'i ve iki farklı implementasyonu (BuyukHarfIslem, KucukHarfIslem) eklendi
+Kalıtım: Musteri base class'ı oluşturuldu ve BankaClass bu sınıftan türetildi
+Kurucu ve Yok Edici Metot: DiziIslemleri sınıfı eklendi
+
+Hata Yönetimi: Ana Menü -> Dizi ve Koleksiyon işlemleri -> Filtreleme ve toplama -> Diziyi manuel girmek -> 
+
+adımındaki filtre giriş değeri harf veyahut yanlış bir giriş yapıldığında hata yönetimi yapıldı, hata emsajları yazdırıldı.
+
+Sonrasında diziyi oluştururken yanlış hatalı dizi oluşturulmasına karşın hata yönetimleri yapıldı ve hata mesajları yazdırıldı.
+
+
+Ana Menü -> Banka işlemleri (5)
+
+Bu adımda tc girerken harf içeren veya 11 haneli olmayan girişlerin hata yönetimi yapılmıştır. 
+
+
+Ana Menü -> Collatz (7)
+
+Bu adımda min ve max değerleri harf girildiğinde, noktalama işareti veya sembol girildiğinde veya - değerler girildiğinde hata yönetimi gerçekleştirilmiştir.
